@@ -10,7 +10,7 @@ class sidebarWiget extends StatelessWidget {
         children: [
           new UserAccountsDrawerHeader(
               currentAccountPicture: CircleAvatar(
-                backgroundImage: AssetImage('images/img_1.jpg'),
+                backgroundImage: AssetImage('../assets/img/pic1.png'),
               ),
               accountName: Text(
                 'danielCode ',

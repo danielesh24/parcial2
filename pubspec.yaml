@@ -34,6 +34,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_feather_icons: ^2.0.0+1
+  flutter_vector_icons: ^1.0.0
+  page_transition: ^2.0.5
 
 dev_dependencies:
   flutter_test:
@@ -58,8 +61,15 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-assets:
-  - images/
+  assets:
+      - assets/img/sillaV.png
+      - assets/img/Grupo2.png
+      - assets/img/sillaR.png
+      - assets/img/Grupo4.png
+      - assets/img/Chair.png
+      - assets/img/pic1.png
+      
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
